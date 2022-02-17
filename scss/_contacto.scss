@@ -1,0 +1,37 @@
+
+/* form */
+
+
+.formYMaps{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .formulario {
+        margin: 45px;
+    }
+        .tituloForm {
+            margin: 20px;
+            padding: 10px;
+            font-family: $font3;
+            text-shadow: 5px 5px 7px black;
+        }
+}
+
+label {
+    color: lightyellow;
+    font-family: $font3;
+}
+
+.btn{
+    margin: 0px 15px;
+}
+
+.maps {
+    margin: 45px;
+    .tituloMaps{
+        margin: 20px;
+        padding: 10px;
+        font-family: $font3;
+        text-shadow: 5px 5px 7px black;
+    }
+}   

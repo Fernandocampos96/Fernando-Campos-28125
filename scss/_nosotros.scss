@@ -1,0 +1,46 @@
+/* Nosotros */
+
+.frase__entrena{
+    margin: $margin + 10;
+    padding: 10px;
+    font-size: 25px;
+    text-shadow: 5px 5px 7px black;
+}
+
+.frase__nosotros{
+    color: $colorR;
+    letter-spacing: 2px;
+    margin: auto;
+    padding: $padding - 5;
+    font-family: $font3;
+    text-shadow: 5px 5px 7px black;
+}
+
+.entrenamiento{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .imgFuncional, .imgGap, .imgTaekwondo{
+        width: 450px;
+        margin: $margin - 5;
+        padding: $padding - 15;
+        min-width: 450px;
+        border-radius: 1.5rem;
+    }
+    .descripcionImg{
+        font-family: $font3;
+    }
+}
+
+.tablaHorarios {
+    margin-left: 15%;
+    margin-bottom: 30px;
+    width: 70%;
+    .tituloTabla {
+        color: yellow;
+        font-size: 20px;  
+    }
+    td {
+        font-size: 20px
+    }
+}
