@@ -101,7 +101,6 @@ li {
 }
 .animate__slideInLeft .imgInicio, .animate__slideInRight .imgInicio {
   border-radius: 35px;
-  width: 100%;
 }
 
 /* Nosotros */
@@ -116,7 +115,7 @@ li {
 .frase__nosotros {
   color: red;
   letter-spacing: 2px;
-  margin: 35px auto;
+  margin: 55px auto;
   padding: 20px;
   font-family: "Fjalla One", sans-serif;
   text-shadow: 5px 5px 7px black;
@@ -126,6 +125,7 @@ li {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 7%;
 }
 .entrenamiento .imgFuncional, .entrenamiento .imgGap, .entrenamiento .imgTaekwondo {
   width: 450px;

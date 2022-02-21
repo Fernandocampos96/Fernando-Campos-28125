@@ -11,7 +11,7 @@
 .frase__nosotros{
     color: $colorR;
     letter-spacing: 2px;
-    margin: 35px auto;
+    margin: 55px auto;
     padding: $padding - 5;
     font-family: $font3;
     text-shadow: 5px 5px 7px black;
@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 7%;
     .imgFuncional, .imgGap, .imgTaekwondo{
         width: 450px;
         margin: $margin - 5;
