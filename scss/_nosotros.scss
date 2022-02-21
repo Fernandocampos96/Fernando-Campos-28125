@@ -1,8 +1,9 @@
 /* Nosotros */
 
 .frase__entrena{
-    margin: $margin + 10;
-    padding: 10px;
+    background-color: grey;
+    width: auto;
+    margin: 0;
     font-size: 25px;
     text-shadow: 5px 5px 7px black;
 }
@@ -10,7 +11,7 @@
 .frase__nosotros{
     color: $colorR;
     letter-spacing: 2px;
-    margin: auto;
+    margin: 35px auto;
     padding: $padding - 5;
     font-family: $font3;
     text-shadow: 5px 5px 7px black;
@@ -33,9 +34,9 @@
 }
 
 .tablaHorarios {
-    margin-left: 15%;
-    margin-bottom: 30px;
+    margin: 35px auto;
     width: 70%;
+
     .tituloTabla {
         color: yellow;
         font-size: 20px;  
@@ -43,4 +44,10 @@
     td {
         font-size: 20px
     }
+}
+
+#horarios{
+    background-color: grey;
+    width: auto;
+    margin: 0;
 }
