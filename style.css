@@ -95,12 +95,13 @@ li {
   width: auto;
   padding: 15px;
   height: 45%;
-  margin: 25px -15;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }
 .animate__slideInLeft .imgInicio, .animate__slideInRight .imgInicio {
   border-radius: 35px;
+  width: 50%;
 }
 
 /* Nosotros */
@@ -266,6 +267,7 @@ li {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  width: auto;
 }
 .formYMaps .formulario {
   margin: 45px;

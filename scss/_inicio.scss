@@ -46,11 +46,12 @@ li {
     width: auto;
     padding: $padding - 10;
     height: 45%;
-    margin: $margin -15;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     .imgInicio{
         border-radius: 35px;
+        width: 50%;  
     }
 }
 
