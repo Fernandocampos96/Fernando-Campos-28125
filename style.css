@@ -94,7 +94,6 @@ li {
 .animate__slideInLeft, .animate__slideInRight {
   width: auto;
   padding: 15px;
-  height: 45%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -141,7 +140,7 @@ li {
 
 .tablaHorarios {
   margin: 35px auto;
-  width: 70%;
+  width: auto;
 }
 .tablaHorarios .tituloTabla {
   color: yellow;
@@ -290,6 +289,9 @@ label {
 
 .maps {
   margin: 45px;
+}
+.maps iframe {
+  width: auto;
 }
 .maps .tituloMaps {
   margin: 20px;
