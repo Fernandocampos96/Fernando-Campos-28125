@@ -53,22 +53,46 @@
     </header>
     <!-- Comienzo de imagenes con frases  -->
     <main>
-        <div class="animate__animated animate__slideInLeft">
-            <img class="imgInicio" src="img/imagenInicio1.jpg" alt="ejercicios gimnasio">
-            <p>"Lo que cuenta no es el número de horas que entrenas, sino la energía que pones en esas horas."</p>
+
+        <section class="secInicio">
+            <h2 class="fraseInicio">"Lo único que se interpone entre ti y tu sueño, es la voluntad de <br> intentarlo  y la creencia de que en realidad es posible."</h2>
+        </section>
+        
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/imagenInicio1.jpg" alt="Imagen inicio">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/imagenInicio2.jpg" alt="Imagen inicio">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/imagenInicio3.jpg" alt="Imagen inicio">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeria5.jpg" alt="Imagen inicio">
+                </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
         </div>
-        <div class="animate__animated animate__slideInRight">
-            <p>"Los campeones no están hechos en el gimnasio. Los campeones están hechos de algo que tienen en su interior, un deseo, un sueño, una visión."</p>
-            <img class="imgInicio" src="img/imagenInicio2.jpg" alt="ejercicios gimnasio">
-        </div>
-        <div class="animate__animated animate__slideInLeft">
-            <img class="imgInicio" src="img/imagenInicio3.jpg" alt="ejercicios gimnasio">
-            <p>"Lo único que se interpone entre ti y tu sueño, es la voluntad de intentarlo y la creencia de que en realidad es posible."</p>
-        </div>
-        <div class="animate__animated animate__slideInRight">
-            <p>"Los obstáculos son esas cosas espantosas que se ven cuando desvías la atención del objetivo."</p>
-            <img class="imgInicio" src="img/galeria5.jpg" alt="ejercicios gimnasio">
-        </div>
+
     </main> 
 
     <!-- Comienzo del footer -->
