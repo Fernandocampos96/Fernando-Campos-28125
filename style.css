@@ -7,10 +7,12 @@ font-family: 'Supermercado One', cursive;
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
+  background: -webkit-gradient(linear, left top, left bottom, from(grey), color-stop(black), to(grey));
   background: linear-gradient(grey, black, grey);
 }
 
@@ -35,9 +37,15 @@ h4 {
 p {
   margin: 15px;
   width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: red;
   font-family: "Supermercado One", cursive;
   font-size: 25px;
@@ -45,14 +53,24 @@ p {
 
 .contenedor {
   margin: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* header */
 header {
+  background: -webkit-gradient(linear, left top, left bottom, from(grey), to(black));
   background: linear-gradient(grey, black);
 }
 
@@ -74,18 +92,26 @@ li {
 }
 
 .logoYTitulo {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 40% 60%;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
 }
+
 .logoYTitulo .logo {
   width: 20%;
   border-radius: 100%;
   margin: 15px;
   text-align: center;
 }
+
 .logoYTitulo .animate__backInDown {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: yellow;
   text-shadow: 5px 5px 7px black;
   font-family: "Fjalla One", sans-serif;
@@ -94,6 +120,7 @@ li {
 .carousel-inner .carousel-item {
   text-align: center;
 }
+
 .carousel-inner img {
   width: 60%;
   border-radius: 50px;
@@ -113,12 +140,18 @@ li {
 .secInicio {
   width: auto;
   height: 900px;
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/fondoinicio.jpg);
   background-size: cover;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* Nosotros */
@@ -131,10 +164,11 @@ li {
 }
 
 .frase {
-  background-image: url(../img/fondo2.jpg);
+  background-image: url(../img/fondonosotros.jpg);
   background-size: cover;
   background-position: center;
 }
+
 .frase .frase__nosotros {
   color: red;
   letter-spacing: 2px;
@@ -146,11 +180,17 @@ li {
 }
 
 .entrenamiento {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 7%;
 }
+
 .entrenamiento .imgFuncional, .entrenamiento .imgGap, .entrenamiento .imgTaekwondo {
   width: 350px;
   margin: 20px;
@@ -158,6 +198,7 @@ li {
   min-width: 350px;
   border-radius: 1.5rem;
 }
+
 .entrenamiento .descripcionImg {
   font-family: "Fjalla One", sans-serif;
 }
@@ -166,10 +207,12 @@ li {
   margin: 35px auto;
   width: auto;
 }
+
 .tablaHorarios .tituloTabla {
   color: yellow;
   font-size: 20px;
 }
+
 .tablaHorarios td {
   font-size: 20px;
 }
@@ -198,14 +241,21 @@ li {
 
 /* form */
 .formYMaps {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: auto;
 }
+
 .formYMaps .formulario {
   margin: 45px;
 }
+
 .formYMaps .tituloForm {
   margin: 20px;
   padding: 10px;
@@ -225,9 +275,11 @@ label {
 .maps {
   margin: 45px;
 }
+
 .maps iframe {
   width: auto;
 }
+
 .maps .tituloMaps {
   margin: 20px;
   padding: 10px;
@@ -240,4 +292,5 @@ label {
   width: 30%;
   border-radius: 100%;
   margin: 15px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
